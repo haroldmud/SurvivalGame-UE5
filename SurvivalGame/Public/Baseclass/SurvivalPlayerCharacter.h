@@ -6,6 +6,12 @@
 #include "Baseclass/SurvivalCharacter.h"
 #include "SurvivalPlayerCharacter.generated.h"
 
+class USpringArmComponent;
+class UCameraComponent;
+class UInputMappingContext;
+class UInputAction;
+struct FInputActionValue;
+
 /**
  * 
  */
