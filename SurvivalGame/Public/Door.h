@@ -16,6 +16,8 @@ public:
 	ADoor();
 
 protected:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components")
+	UStaticMeshComponent* DoorMesh;
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
