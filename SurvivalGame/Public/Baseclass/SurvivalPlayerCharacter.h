@@ -15,7 +15,7 @@ struct FInputActionValue;
 /**
  * 
  */
-UCLASS()
+UCLASS(config = Game)
 class SURVIVALGAME_API ASurvivalPlayerCharacter : public ASurvivalCharacter
 {
 	GENERATED_BODY()
